@@ -1,0 +1,2 @@
+# Membuat Program untuk memesan Pizza
+pesanan= input(masukkan pesanan)
