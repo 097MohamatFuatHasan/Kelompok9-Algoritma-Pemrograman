@@ -1,3 +1,5 @@
 # Membuat Program untuk memesan Pizza
-print ("Selamat datang di PizzaHut Ketintang")
+print ("Selamat datang di PizzaHut Deliveries")
+
+def 
 pesanan= input(masukkan pesanan)
