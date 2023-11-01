@@ -37,11 +37,6 @@ menu_pizza = {
             "Regular": 100910,
             "Large": 132728
         },
-              "StuffedCrust Cheese": {
-            "Personal": 55455,
-            "Regular": 120910,
-            "Large": 160000
-        },
         "StuffedCrust Cheese": {
             "Personal": 55455,
             "Regular": 120910,
