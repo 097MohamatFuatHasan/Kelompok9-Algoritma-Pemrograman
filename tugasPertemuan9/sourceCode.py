@@ -139,7 +139,7 @@ for pizza in menu_pizza:
 # Meminta user memasukkan pizza yang ingin di pesan
 pilihan_pizza = input("Pilih Pizza yang anda inginkan :")
 
-# Fungsi untuk memesan pizza
+# Kondisi untuk memilih pizza, ukuran pizza, dan crust 
 if pilihan_pizza in menu_pizza:
 
     print("Pilih ukuran pizza anda :")
@@ -171,7 +171,7 @@ else:
 
 tambah_topping = input("Apakah anda ingin menambahkan topping? (ya/tidak): ").lower()
 
-# Tambahkan kondisi untuk otomatis menambahkan topping "Cheese" jika jawaban adalah "ya" atau "cheese"
+# Kondisi untuk menambahkan topping "Cheese" atau tidak
 if tambah_topping == "ya"or tambah_topping == "cheese":
     pilihan_topping = "Cheese"
 
@@ -180,8 +180,8 @@ if pilihan_topping in menu_topping:
     selected_toppings.append(pilihan_topping)
     pesanan += f" dengan topping {pilihan_topping}"
 
-# Total harga dari semua pesanan
+# Menghitung total harga dari semua pesanan
 pesanan += f" seharga Rp. {total_harga}"
-# Menampilkan pesan kepada user
+# Menampilkan item yang telah di pesan beserta dengan harganya 
 print(f"Pesanan Anda: {pesanan}")
 print("===================== Terima kasih telah memesan di Pizza Hut! =====================")
